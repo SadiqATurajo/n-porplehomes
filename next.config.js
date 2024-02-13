@@ -4,8 +4,7 @@ const nextConfig = {
     
     domains: [
       'localhost',
-      '
-n-porplehomes-production.up.railway.app',
+      'n-porplehomes-production.up.railway.app',
     ],
   },
 }
