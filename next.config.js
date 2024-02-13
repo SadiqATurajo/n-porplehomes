@@ -2,10 +2,12 @@
 const nextConfig = {
   images: {
     
-    domains: [
-      'localhost',
-      'n-porplehomes-production.up.railway.app',
-    ],
+    remotePatterns: [
+          {hostname: 'n-porplehomes-production.up.railway.app/',
+          pathname: '**',
+          port: '3000',
+          protocol: 'http'}
+        ],
   },
 }
 
