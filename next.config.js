@@ -1,14 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-       
-        domains: [
+  images: {
+    
+    domains: [
       'localhost',
-      'n-porplehomes-production.up.railway.app',
+      '
+n-porplehomes-production.up.railway.app',
     ],
-      },
+  },
 }
-
-
 
 module.exports = nextConfig
